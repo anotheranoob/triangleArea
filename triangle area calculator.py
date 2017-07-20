@@ -84,4 +84,3 @@ class Fraction:
 def triangle_area(s1, s2, s3):
     Semiperimeter= Fraction(s1+s2+s3)/Fraction(2)
     return "Square Root of "+str(Semiperimeter*(Semiperimeter-s1)*(Semiperimeter-s2)*(Semiperimeter-s3))
-print(triangle_area(Fraction(4,3),Fraction(2), Fraction(8,3)))
